@@ -1,22 +1,13 @@
-#include "main.h"
-#include <stdio.h>
-
+#include "holberton.h"
+#include <stdlib.h>
 /**
- * main - check the code
- *
+ * _abs - check the code for Holberton School students.
+ * @c: is a int variable
  * Return: Always 0.
  */
-int main(void)
+int _abs(int c)
 {
-    int r;
-
-    r = _abs(-1);
-    printf("%d\n", r);
-    r = _abs(0);
-    printf("%d\n", r);
-    r = _abs(1);
-    printf("%d\n", r);
-    r = _abs(-98);
-    printf("%d\n", r);
-    return (0);
+int abso;
+abso = abs(c);
+return (abso);
 }
