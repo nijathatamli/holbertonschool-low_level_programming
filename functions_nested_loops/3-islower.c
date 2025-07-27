@@ -1,20 +1,20 @@
+/*
+ * File: 3-islower.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "holberton.h"
 
 /**
- * _islower - check the code for Holberton School students.
+ * _islower - Checks if a character is lowercase.
+ * @c: The character to be checked.
  *
- * @c: is a variable int
- *
- * Return: Always 0.
+ * Return: 1 if character is lowercase, 0 otherwise.
  */
-
 int _islower(int c)
 {
-char i;
-for (i = 'a'; i < 'z'; i++)
-{
-if (c == i)
-return (1);
-}
-return (0);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
