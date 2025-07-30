@@ -1,20 +1,34 @@
-/*
- * File: 3-islower.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _islower - Checks if a character is lowercase.
- * @c: The character to be checked.
+ * _islower - Entry point
+ * @c: variable
  *
- * Return: 1 if character is lowercase, 0 otherwise.
+ * Return: Always 0 (Success)
  */
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+int i;
+int u = 0;
+
+for (i = 'a'; i <= 'z'; i++)
+{
+if (c == i)
+{
+u = u + 1;
+}
+else
+{
+u = u + 0;
+}
+}
+if (u == 1)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+return (0);
 }
