@@ -3,7 +3,7 @@
  *
  * Return: Always 0.
  */
-#include "holberton.h"
+#include "main.h"
 int _isupper(int c)
 {
     if (c>= "A" && c<= "Z")
