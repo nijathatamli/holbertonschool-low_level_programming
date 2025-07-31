@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-int _isdigit(int c)
+int mul(int a,int b)
 {
 	return (a * b);
 }
