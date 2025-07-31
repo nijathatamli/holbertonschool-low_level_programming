@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * main - check the code
+ * _isdigit - Entry point
+ * @c: variable
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int _isdigit(int c)
 {
