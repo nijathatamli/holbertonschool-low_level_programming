@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _isdigit - Entry point
- * @c: variable
+ * mul - Entry point
+ * @a: variable1
+ * @b: variable2
  *
  * Return: Always 0 (Success)
  */
