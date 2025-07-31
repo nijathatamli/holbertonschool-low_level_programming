@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Succes)
  */
-void print_numbers()
+void print_numbers(void)
 {
 	int i;
 
