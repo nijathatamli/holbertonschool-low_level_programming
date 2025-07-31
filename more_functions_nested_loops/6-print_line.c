@@ -1,7 +1,7 @@
 #include "main.h"
-/** 
+/**
  * print_line - Entry point
- * @c: value 
+ * @c: value
  *
  * Return: Always 0 (Success)
  */
@@ -15,5 +15,4 @@ void print_line(int c)
 		i++;
 	}
 	_putchar('\n');
-	
 }
