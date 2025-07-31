@@ -1,12 +1,13 @@
 #include "main.h"
 /** 
  * print_line - Entry point
+ * @c: value 
  *
  * Return: Always 0 (Success)
  */
 void print_line(int c)
 {
-	int i =0;
+	int i = 0;
 
 	while (i < c)
 	{
