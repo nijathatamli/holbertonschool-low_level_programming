@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - Entry point
- * @size: var
+ * @s: var
  * Return: Always 0 (Success)
  */
 void print_square(int s)
