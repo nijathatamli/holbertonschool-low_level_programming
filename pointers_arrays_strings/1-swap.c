@@ -6,12 +6,11 @@
  *
  * Return: Always 0 (Success)
  */
-int swap_int(int *x, int *y)
+void swap_int(int *x, int *y)
 {
 		int a;
 		a = *x;
 		*x = *y;
 		*y = a;
-		return (0);
 }
 
