@@ -11,5 +11,7 @@ int swap_int(int *x, int *y)
 		int a;
 		a = *x;
 		*x = *y;
-		*y = d;
+		*y = a;
+		return (0);
 }
+
