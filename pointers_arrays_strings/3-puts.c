@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strlen - Entry point
+ * _puts - Entry point
  * @s: description for n
  *
  * Return: Always 0 (Success)
