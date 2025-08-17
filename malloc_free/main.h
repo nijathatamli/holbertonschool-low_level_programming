@@ -13,3 +13,4 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void rev_string(char *s);
 void puts_half(char *str);
+char *create_array(unsigned int size, char c);
