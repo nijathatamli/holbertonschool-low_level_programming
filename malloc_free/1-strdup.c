@@ -8,7 +8,7 @@
  *
  * Return: always 0
  */
-char *_strdupp(char *str)
+char *_strdup(char *str)
 {
 	char *array;
 	int i = 0, len = 0;
