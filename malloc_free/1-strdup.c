@@ -8,14 +8,14 @@
  *
  * Return: always 0
  */
-char *_strdupp()
+char *_strdupp(char *str)
 {
 	char *array;
 	int i = 0, len = 0;
 
 	if (str == NULL)
 	{
-		return (NULL)
+		return (NULL);
 	}
 	while (str[len] != '\0')
 	{
