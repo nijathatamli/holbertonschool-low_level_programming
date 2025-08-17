@@ -11,7 +11,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int la = 0, lb = 0, i = 0,lc;
+	int la = 0, lb = 0, i = 0, lc;
 	char *array;
 
 	if (s1 == NULL)
@@ -31,11 +31,11 @@ char *str_concat(char *s1, char *s2)
 		lb++;
 	}
 	lc = la + lb + 1;
-	array = malloc (lc * sizeof(char));
+	array = malloc(lc * sizeof(char));
 	if (array == NULL)
 	{
 		return (NULL);
-	}	
+	}
 	for (i = 0; i < la; i++)
 		array[i] = s1[i];
 	for (i = 0; i < lb; i++)
