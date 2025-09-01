@@ -1,0 +1,19 @@
+file:///root/Documents/holbertonschool-low_level_programming/functions_nested_loops/6-abs.c {"mtime":1756723725460,"ctime":1756716687316,"size":172,"etag":"3eoa7g6s85h","orphaned":false,"typeId":""}
+#include "main.h"
+/**
+ * _abs - Entry point
+ * @a: variable
+ *
+ * Return: Always 0 (Success)
+ */
+int _abs(int a)
+{
+if (a < 0)
+{
+return (a * (-1));
+}
+else
+{
+return (a);
+}
+}
