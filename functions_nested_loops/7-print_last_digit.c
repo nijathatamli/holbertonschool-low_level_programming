@@ -10,6 +10,6 @@ if (a < 0)
 {
 a = a * (-1);
 }
-printf(a % 10);
+printf("%d", a % 10);
 return (a % 10);
 }
