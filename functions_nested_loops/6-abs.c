@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - Entry point
- * @n: variable
+ * @a: variable
  *
  * Return: Always 0 (Success)
  */
