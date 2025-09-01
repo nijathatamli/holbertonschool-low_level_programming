@@ -10,6 +10,6 @@ if (a < 0)
 {
 a = a * (-1);
 }
-printf("%d", a % 10);
+_putchar((a % 10) + '0');
 return (a % 10);
-}
+}  
