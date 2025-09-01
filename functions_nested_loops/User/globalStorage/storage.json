@@ -1,0 +1,83 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "67a9e78af2f1efd40ffe95cc135ffa8c301f77fee82be0d7d8b6b68244a86869",
+    "telemetry.devDeviceId": "46d6fbde-0e37-488f-a9cb-04c5d254b111",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///root/Documents/holbertonschool-low_level_programming/functions_nested_loops"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1756715923208"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///root/Documents/holbertonschool-low_level_programming/functions_nested_loops": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1756715923208": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///root/Documents/holbertonschool-low_level_programming/functions_nested_loops",
+            "backupPath": "/root/Documents/holbertonschool-low_level_programming/functions_nested_loops/Backups/4719ae75feeb06d4951b9d7ef1de50bb",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 35,
+                "width": 1920,
+                "height": 1045
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "778ce863faa075e10aab516b90e75692": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

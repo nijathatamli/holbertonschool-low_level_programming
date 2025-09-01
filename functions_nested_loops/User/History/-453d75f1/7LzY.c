@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * 
- * 
+ * print_last_digit - Entry point
+ * @n: variable
+ *
+ * Return: Always 0 (Success)
  */
 int print_last_digit(int a)
 {
