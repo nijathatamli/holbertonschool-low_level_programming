@@ -13,5 +13,5 @@ if (a < 0)
 a = a * (-1);
 }
 _putchar((a % 10) + '0');
-return (a % 10);
+return ((a % 10) + '0');
 }
