@@ -1,7 +1,7 @@
 #include "main.h"
 void jack_bauer(void)
 {
-    int  a = 0,b = 0;
+    int  a = 0, b = 0;
     while (a <= 24)
     {
         while (b <= 60)
@@ -28,5 +28,7 @@ void jack_bauer(void)
                 _putchar(b % 10 +'0');
             }
         }
+        b++;
+        a++;
     }
 }
