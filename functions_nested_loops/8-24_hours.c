@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * jack_bauer - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 void jack_bauer(void)
 {
 int  a = 0, b = 0;
@@ -6,7 +11,7 @@ while (a <= 23)
 {
 while (b <= 59)
 {
-if (a <=9)
+if (a <= 9)
 {
 _putchar('0');
 _putchar(a % 10 + '0');
@@ -25,7 +30,7 @@ _putchar(b % 10 + '0');
 else
 {
 _putchar(b / 10 + '0');
-_putchar(b % 10 +'0');
+_putchar(b % 10 + '0');
 }
 _putchar('\n');
 b++;
