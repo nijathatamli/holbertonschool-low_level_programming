@@ -4,7 +4,7 @@ void jack_bauer(void)
     int  a = 0, b = 0;
     while (a <= 24)
     {
-        while (b <= 60)
+        while (b <= 59)
         {
             if (a <=9)
             {
