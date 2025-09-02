@@ -1,3 +1,4 @@
+file:///root/Documents/holbertonschool-low_level_programming/functions_nested_loops/7-print_last_digit.c {"mtime":1756725036284,"ctime":1756716687316,"size":232,"etag":"3eoa9bsi37f","orphaned":false,"typeId":""}
 #include "main.h"
 #include <stdio.h>
 /**
@@ -16,3 +17,4 @@ a = a * (-1);
 _putchar(a + '0');
 return (a);
 }
+  
