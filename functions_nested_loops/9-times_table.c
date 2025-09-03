@@ -29,9 +29,9 @@ else
 {
 _putchar(' ');
 }
-_putchar('\n');
 b++;
 }
+_putchar('\n');
 a++;
 b = 0;
 }
