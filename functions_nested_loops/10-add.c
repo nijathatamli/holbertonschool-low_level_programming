@@ -1,5 +1,4 @@
 #include "main.h"
-int add(int num1, int num2)
 /**
  * add - Entry point
  * @num1: variable
@@ -7,6 +6,7 @@ int add(int num1, int num2)
  *
  * Return: Always 0 (Success)
  */
+int add(int num1, int num2)
 {
 return (num1 + num2);
 }
