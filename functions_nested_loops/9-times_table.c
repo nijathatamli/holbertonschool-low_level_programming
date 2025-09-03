@@ -19,8 +19,8 @@ _putchar((a * b) % 10 + '0');
 if (b != 9)
 {
 _putchar(',');
-if ((a * b) <= 9)
-{
+if ((a * (b + 1)) <= 9)
+{ 
 _putchar(' ');
 _putchar(' '); 
 }
