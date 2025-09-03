@@ -11,7 +11,7 @@ while (a <= 9)
 {
 while (b <= 9)
 {
-if (a *b < 10)
+if (a * b < 10)
 {
 _putchar((a * b) + '0');
 }
@@ -24,9 +24,9 @@ if (b != 9)
 {
 _putchar(',');
 if ((a * (b + 1)) <= 9)
-{ 
+{
 _putchar(' ');
-_putchar(' '); 
+_putchar(' ');
 }
 
 else
