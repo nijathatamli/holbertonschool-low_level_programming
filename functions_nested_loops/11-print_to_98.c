@@ -17,7 +17,8 @@ _putchar((s % 10) + '0');
 }
 if (s != 98)
 {
-_putchar(', ');
+_putchar(',');
+_putchar(' ');
 }
 s++;
 }
