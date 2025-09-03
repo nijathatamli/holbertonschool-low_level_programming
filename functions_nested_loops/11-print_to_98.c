@@ -23,7 +23,7 @@ _putchar(' ');
 s++;
 }
 }
-if (n >= 98)
+if (n > 98)
 {
 while (n > 0)
 {
@@ -31,6 +31,11 @@ _putchar(n % 10 + '0');
 n = n / 10;
 }
 n--;
+}
+else
+{
+_putchar('9');
+_putchar('8');
 }
 _putchar('\n');
 }
