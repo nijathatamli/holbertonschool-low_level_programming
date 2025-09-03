@@ -24,10 +24,11 @@ if ((a * (b + 1)) <= 9)
 _putchar(' ');
 _putchar(' '); 
 }
-}
+
 else
 {
 _putchar(' ');
+}
 }
 b++;
 }
