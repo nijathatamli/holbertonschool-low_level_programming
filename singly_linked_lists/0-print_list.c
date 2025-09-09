@@ -24,4 +24,3 @@ count++;
 }
 return (count);
 }
-s
