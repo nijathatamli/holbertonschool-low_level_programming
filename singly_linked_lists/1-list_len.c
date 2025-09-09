@@ -10,7 +10,7 @@ int count = 0;
 while (h != NULL)
 {
 count++;
-h->next;
+h = h->next;
 }
 return(count);
 }
