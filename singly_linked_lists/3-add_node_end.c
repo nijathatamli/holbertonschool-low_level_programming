@@ -3,10 +3,11 @@
 #include <stdlib.h>
 
 /**
- * add_node_end - adds a new node at the end of a list_t list
- * @head: pointer to head of singly linked list
- * @str: string to duplicate into the new node
- * Return: address of the new element, or NULL on failure
+ * add_node_end - Adds a new node at the end of a list_t list
+ * @head: Pointer to head of singly linked list
+ * @str: String to duplicate into the new node
+ *
+ * Return: Address of the new element, or NULL on failure
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -26,6 +27,7 @@ list_t *add_node_end(list_t **head, const char *str)
         free(new_node);
         return (NULL);
     }
+
     new_node->len = lens;
     new_node->next = NULL;
 
@@ -40,5 +42,6 @@ list_t *add_node_end(list_t **head, const char *str)
         temp = temp->next;
 
     temp->next = new_node;
+
     return (new_node);
 }
