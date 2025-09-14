@@ -13,7 +13,7 @@ while (pdl != NULL)
 {
 printf("%d\n", pdl->n);
 pdl = pdl->next;
-count++; 
+count++;
 }
 return (count);
 }
