@@ -12,7 +12,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
     temp = *head;
     new_node = malloc(sizeof(new_node));
     if (new_node == NULL)
-        return ("Segmentation fault");
+        return ('Segmentation fault');
     new_node->n = n;
     new_node->next = NULL;
     if (*head == NULL)
