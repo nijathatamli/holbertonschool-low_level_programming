@@ -1,8 +1,18 @@
 #include <stdio.h>
 
+/**
+ * main - prints number of arguments
+ * @argc: argument count
+ * @argv: argument vector (unused)
+ *
+ * Return: 0 (Success)
+ */
 int main(int argc, char *argv[])
 {
-(void)argv;   /* unused warning olmasın deyə */
-printf("%d\n", argc - 1);
-return 0;
+	(void)argv;
+
+	printf("%d\n", argc - 1);
+
+	return (0);
 }
+
