@@ -1,16 +1,18 @@
-`#include "main.h"
+#include "main.h"
 /**
- * _puts_recursion - check the code
- * @s: - s
+ * factorial - check the code
+ * @n: - s
  * Return: Always 0.
  */
-void _puts_recursion(char *s)
+int factorial(int n)
 {
-if (*s != '\0')
+if (n < 0)
 {
-_putchar(*s);
-_puts_recursion(++s);
+return (-1);
 }
-_putchar('\n');
-return;
+if (n <= 1)
+{
+return (1);
+}
+return (n * factorial(n - 1));
 }
