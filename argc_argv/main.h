@@ -1,31 +1,15 @@
-# argc & argv in C
+#include <unistd.h>
 
-## 📌 Description
-This project demonstrates how to use command line arguments in C programming using `argc` and `argv`.
-
-Command line arguments allow users to pass inputs to a program when running it from the terminal.
-
----
-
-## 🧠 Concepts Covered
-- argc (Argument Count)
-- argv (Argument Vector)
-- Command line argument handling
-- Pointer to pointer concept (`char **argv`)
-
----
-
-## 🔹 What is argc?
-
-`argc` stands for **argument count**.
-
-It represents the number of arguments passed to the program.
-
-👉 Important:
-- `argc` is always at least **1**
-- `argc` includes the program name
-
-Example:
-
-```bash
-./program hello world
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void rev_string(char *s);
+void puts_half(char *str);
